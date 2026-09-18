@@ -13,7 +13,7 @@ public partial class Agendamento
 
     public int IdServico { get; set; }
 
-    public virtual Servico IdServicoNavigation { get; set; } = null!;
+    public virtual Servico? IdServicoNavigation { get; set; }
 
-    public virtual Tutor IdTutorNavigation { get; set; } = null!;
+    public virtual Tutor? IdTutorNavigation { get; set; }
 }

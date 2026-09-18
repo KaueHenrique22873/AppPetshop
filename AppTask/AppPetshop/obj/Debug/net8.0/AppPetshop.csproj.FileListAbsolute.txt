@@ -261,3 +261,4 @@ C:\Users\manha.cetcc\Documents\Pastas de Kaue\revgitub\AppPetshop\AppTask\AppPet
 C:\Users\manha.cetcc\Documents\Pastas de Kaue\revgitub\AppPetshop\AppTask\AppPetshop\obj\Debug\net8.0\AppPetshop.pdb
 C:\Users\manha.cetcc\Documents\Pastas de Kaue\revgitub\AppPetshop\AppTask\AppPetshop\obj\Debug\net8.0\AppPetshop.genruntimeconfig.cache
 C:\Users\manha.cetcc\Documents\Pastas de Kaue\revgitub\AppPetshop\AppTask\AppPetshop\obj\Debug\net8.0\ref\AppPetshop.dll
+C:\Users\manha.cetcc\Documents\Pastas de Kaue\revgitub\AppPetshop\AppTask\AppPetshop\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout-outrositens.cshtml.rz.scp.css
