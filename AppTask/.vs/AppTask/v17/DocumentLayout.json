@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Models\\PetshopContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppPetshop\\Models\\PetshopContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\models\\petshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\models\\petshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -27,6 +47,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AgendamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\AgendamentoController.cs",
+              "RelativeDocumentMoniker": "AppPetshop\\Controllers\\AgendamentoController.cs",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\AgendamentoController.cs",
+              "RelativeToolTip": "AppPetshop\\Controllers\\AgendamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:07:17.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\PetController.cs",
+              "RelativeDocumentMoniker": "AppPetshop\\Controllers\\PetController.cs",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\PetController.cs",
+              "RelativeToolTip": "AppPetshop\\Controllers\\PetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:06:49.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\ServicoController.cs",
+              "RelativeDocumentMoniker": "AppPetshop\\Controllers\\ServicoController.cs",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\ServicoController.cs",
+              "RelativeToolTip": "AppPetshop\\Controllers\\ServicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:06:22.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TutorController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\TutorController.cs",
+              "RelativeDocumentMoniker": "AppPetshop\\Controllers\\TutorController.cs",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Controllers\\TutorController.cs",
+              "RelativeToolTip": "AppPetshop\\Controllers\\TutorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:05:47.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Program.cs",
+              "RelativeDocumentMoniker": "AppPetshop\\Program.cs",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Program.cs",
+              "RelativeToolTip": "AppPetshop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:04:32.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PetshopContext.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\Models\\PetshopContext.cs",
               "RelativeDocumentMoniker": "AppPetshop\\Models\\PetshopContext.cs",
@@ -39,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\appsettings.json",
               "RelativeDocumentMoniker": "AppPetshop\\appsettings.json",
@@ -52,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\appsettings.Development.json",
               "RelativeDocumentMoniker": "AppPetshop\\appsettings.Development.json",
