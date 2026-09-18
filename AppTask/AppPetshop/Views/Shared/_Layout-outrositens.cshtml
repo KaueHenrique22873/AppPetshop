@@ -1,0 +1,290 @@
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AppPetshop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AppPetshop.styles.css" asp-append-version="true" />
+    <style>
+        :root {
+            --pet-primary: #176b87;
+            --pet-primary-dark: #0f4f67;
+            --pet-accent: #f5a623;
+            --pet-ink: #19343f;
+            --pet-muted: #60757d;
+            --pet-surface: #ffffff;
+            --pet-background: #f4fafb;
+            --pet-border: #dcecef;
+            --pet-radius: 14px;
+        }
+
+        html {
+            font-size: 16px;
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding-bottom: 0;
+            color: var(--pet-ink);
+            background: linear-gradient(180deg, #eaf7f8 0, var(--pet-background) 230px, #ffffff 100%);
+            font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        .pet-header {
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+            background: rgba(255, 255, 255, .94);
+            border-bottom: 1px solid rgba(23, 107, 135, .12);
+            box-shadow: 0 6px 24px rgba(25, 52, 63, .07);
+            backdrop-filter: blur(10px);
+        }
+
+        .pet-navbar {
+            min-height: 76px;
+        }
+
+        .pet-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: .65rem;
+            color: var(--pet-primary) !important;
+            font-size: 1.35rem;
+            font-weight: 800;
+            letter-spacing: -.02em;
+            text-decoration: none;
+        }
+
+        .pet-brand-mark {
+            display: grid;
+            width: 40px;
+            height: 40px;
+            place-items: center;
+            color: #fff;
+            background: var(--pet-primary);
+            border-radius: 12px 12px 12px 4px;
+            font-size: 1.25rem;
+            box-shadow: 0 7px 15px rgba(23, 107, 135, .22);
+        }
+
+        .pet-navbar .navbar-toggler {
+            border: 1px solid var(--pet-border);
+            border-radius: 10px;
+            padding: .5rem .65rem;
+        }
+
+            .pet-navbar .navbar-toggler:focus {
+                box-shadow: 0 0 0 .2rem rgba(23, 107, 135, .2);
+            }
+
+        .pet-navbar .nav-link {
+            position: relative;
+            margin: 0 .15rem;
+            padding: .65rem .8rem !important;
+            color: var(--pet-muted) !important;
+            border-radius: 9px;
+            font-size: .94rem;
+            font-weight: 600;
+            transition: color .2s ease, background-color .2s ease, transform .2s ease;
+        }
+
+            .pet-navbar .nav-link:hover,
+            .pet-navbar .nav-link:focus,
+            .pet-navbar .nav-link.active {
+                color: var(--pet-primary) !important;
+                background: #e8f5f6;
+                transform: translateY(-1px);
+            }
+
+                .pet-navbar .nav-link.active::after {
+                    position: absolute;
+                    right: .8rem;
+                    bottom: .25rem;
+                    left: .8rem;
+                    height: 2px;
+                    background: var(--pet-accent);
+                    border-radius: 2px;
+                    content: "";
+                }
+
+        .pet-main {
+            min-height: calc(100vh - 156px);
+            padding-top: 2.25rem;
+            padding-bottom: 3rem;
+        }
+
+            .pet-main > *:first-child {
+                animation: pet-fade-in .35s ease-out both;
+            }
+
+        .pet-footer {
+            color: #789099;
+            background: #f7fbfc;
+            border-top: 1px solid var(--pet-border);
+            font-size: .88rem;
+        }
+
+            .pet-footer a {
+                color: var(--pet-primary);
+                font-weight: 600;
+                text-decoration: none;
+            }
+
+                .pet-footer a:hover,
+                .pet-footer a:focus {
+                    color: var(--pet-primary-dark);
+                    text-decoration: underline;
+                }
+
+        a {
+            color: var(--pet-primary);
+        }
+
+        .btn-primary {
+            color: #fff;
+            background: var(--pet-primary);
+            border-color: var(--pet-primary);
+            border-radius: 9px;
+            font-weight: 600;
+        }
+
+            .btn-primary:hover,
+            .btn-primary:focus {
+                color: #fff;
+                background: var(--pet-primary-dark);
+                border-color: var(--pet-primary-dark);
+            }
+
+        .btn-outline-primary {
+            color: var(--pet-primary);
+            border-color: var(--pet-primary);
+            border-radius: 9px;
+            font-weight: 600;
+        }
+
+            .btn-outline-primary:hover,
+            .btn-outline-primary:focus {
+                color: #fff;
+                background: var(--pet-primary);
+                border-color: var(--pet-primary);
+            }
+
+        .card {
+            border: 1px solid var(--pet-border);
+            border-radius: var(--pet-radius);
+            box-shadow: 0 8px 24px rgba(25, 52, 63, .06);
+        }
+
+        .form-control,
+        .form-select {
+            border-color: var(--pet-border);
+            border-radius: 9px;
+        }
+
+            .form-control:focus,
+            .form-select:focus {
+                border-color: var(--pet-primary);
+                box-shadow: 0 0 0 .2rem rgba(23, 107, 135, .15);
+            }
+
+        @@keyframes pet-fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(7px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @@media (max-width: 575.98px) {
+            .pet-navbar {
+                min-height: 68px;
+            }
+
+            .pet-main {
+                padding-top: 1.5rem;
+            }
+
+            .pet-navbar .navbar-nav {
+                padding-top: .75rem;
+            }
+
+            .pet-navbar .nav-link {
+                margin: .15rem 0;
+            }
+        }
+
+        @@media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: .01ms !important;
+                scroll-behavior: auto !important;
+                transition-duration: .01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="pet-header">
+        <nav class="navbar navbar-expand-sm pet-navbar" aria-label="Navegação principal">
+            <div class="container">
+                <a class="pet-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <span class="pet-brand-mark" aria-hidden="true">♥</span>
+                    <span>AppPetshop</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#petNavigation"
+                        aria-controls="petNavigation" aria-expanded="false" aria-label="Abrir menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="petNavigation" class="navbar-collapse collapse justify-content-end">
+                    <ul class="navbar-nav align-items-sm-center">
+                        <li class="nav-item">
+                            <a class="nav-link @(currentController == "Home" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentController == "Pet" ? "active" : "")" asp-area="" asp-controller="Pet" asp-action="Index">Pets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentController == "Servico" ? "active" : "")" asp-area="" asp-controller="Servico" asp-action="Index">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentController == "Agendamento" ? "active" : "")" asp-area="" asp-controller="Agendamento" asp-action="Index">Agendamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentController == "Tutor" ? "active" : "")" asp-area="" asp-controller="Tutor" asp-action="Index">Tutores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentController == "Home" && ViewData["Title"]?.ToString() == "Privacy" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container pet-main">
+        @RenderBody()
+    </main>
+
+    <footer class="pet-footer py-4">
+        <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
+            <span>&copy; 2026 AppPetshop · Cuidado que faz bem</span>
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de privacidade</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
