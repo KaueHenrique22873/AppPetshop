@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|c:\\users\\manha.cetcc\\documents\\pastas de kaue\\revgitub\\apppetshop\\apptask\\apppetshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AE2ED82-4BEF-413E-A147-4FE5185B78B7}|AppPetshop\\AppPetshop.csproj|solutionrelative:apppetshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\appsettings.json",
+              "RelativeDocumentMoniker": "AppPetshop\\appsettings.json",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\appsettings.json",
+              "RelativeToolTip": "AppPetshop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T11:44:48.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AppPetshop\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\manha.cetcc\\Documents\\Pastas de Kaue\\revgitub\\AppPetshop\\AppTask\\AppPetshop\\appsettings.Development.json",
+              "RelativeToolTip": "AppPetshop\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T11:44:47.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
